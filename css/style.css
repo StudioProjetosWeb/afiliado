@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4caf50; /* Verde para prosperidade */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section#product-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    width: 300px;
+    flex-basis: 20%; /* Ajuste a largura aqui */
+    box-sizing: border-box; /* Isso assegura que o padding não adicione largura extra */
+    background-color: #fff;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    color: #333;
+}
+
+.product button {
+    background-color: #ffd700; /* Dourado para riqueza */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.product button:hover {
+    background-color: #cca300;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
